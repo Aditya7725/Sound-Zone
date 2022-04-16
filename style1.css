@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(headphone.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.bestseller {
+    color: white;
+    border: 5px solid rgb(11, 0, 0);
+    position: absolute;
+    top: 22%;
+    left: 10%;
+
+}
+
+.container {
+
+    /*border: 5px solid rgb(2, 4, 80);*/
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 300px;
+    height: 350px;
+
+}
+
+.container h1 {
+    font-family: bold;
+    text-align: center;
+    font-size: 30px;
+    /*border-bottom: 5px solid purple;*/
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #E4F9F5;
+}
+
+.details {
+    color: rgb(6, 5, 116);
+    font-family: bold;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 64%;
+    left: 10%;
+    /*border-bottom: 5px solid purple;*/
+    margin-bottom: 10px;
+    padding: 0px;
+    background-color: #E4F9F5;
+}
+
+.btn {
+    color: rgba(6, 5, 116);
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border-radius: 10px;
+    font-size: 22px;
+    background: rgba(60, 255, 0, 0.952);
+    font-weight: bold;
+
+}
+
+.nav-links {
+    padding: 15px 0;
+    background: rgba(20, 19, 19, 0.952);
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    position: relative;
+}
+
+.nav-links li a::after {
+    content: '';
+    background: #ff3d00;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: width 0.5s;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+
+}
+
+.btn1 {
+    background: #ff3d00;
+    color: #fff;
+    padding: 10px 21px;
+    border-radius: 10px;
+    position: absolute;
+    left: 91.5%;
+    bottom: 94.5%;
+}
+
+.container1 {
+
+    /*border: 5px solid rgb(2, 4, 80);*/
+    font-size: 16px;
+    position: absolute;
+    top: 58%;
+    left: 60%;
+    width: 650px;
+    height: 350px;
+}
+
+.container1 h1 {
+    padding: 5px;
+}
+
+.container1 h1:hover {
+    background-color: yellow;
+}
